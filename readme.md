@@ -1,31 +1,52 @@
 # 📝 To-Do List – Python OOP
 
-## Zadání projektu
+## 📖 O projektu
 
-Vytvoř konzolovou aplikaci v Pythonu pro správu seznamu úkolů s využitím objektově orientovaného programování (OOP).
+Tento Python skript byl vytvořen pro výukové video v rámci programátorského školení **AN Move Academy**.
 
-### Požadavky
+Cílem projektu je prakticky ukázat využití základních principů objektově orientovaného programování (OOP) v Pythonu na jednoduché aplikaci pro správu úkolů.
+
+## ⚙️ Funkce programu
+
+Aplikace umožňuje uživateli vytvářet a spravovat vlastní seznam úkolů.
+
+Program nabízí:
 
 - Přidávání nových úkolů.
 - Zobrazení všech úkolů s pořadovými čísly.
 - Odstraňování úkolů podle čísla.
-- Kontrola neplatných uživatelských vstupů.
-- Automatické načítání a ukládání úkolů do JSON souboru.
-- Jednoduchá nabídka pro ovládání aplikace.
+- Kontrolu neplatných uživatelských vstupů.
+- Automatické načítání a ukládání úkolů do souboru JSON.
+- Jednoduchou nabídku pro ovládání aplikace v terminálu.
 
-### Technické požadavky
+Úkoly se ukládají do souboru JSON, takže zůstávají zachovány i po ukončení programu.
 
-- Vytvořit vlastní třídu `ToDoList`.
-- Použít konstruktor `__init__()`, atributy a metody.
-- Rozdělit aplikaci do souborů `main.py`, `todo_list.py` a `utils.py`.
-- Používat pouze standardní knihovny Pythonu.
+## 🛠️ Použité technologie
 
-### Spuštění programu
+- **Python 3.10+**
+- `json` – načítání a ukládání úkolů
+- `os` – vyčištění terminálu
+- Objektově orientované programování (OOP)
+- Vlastní třída `ToDoList`
+- Konstruktor `__init__()`, atributy a metody
+- Funkce, cykly a podmínky
+- Ošetření výjimek `try / except`
+- Rozdělení programu do více modulů
 
-```bash
-python main.py
-```
+## 🎬 Poznámky k výukovému videu
 
-### Cíl projektu
+Tento repozitář obsahuje funkční verzi aplikace.
 
-Procvičit základy OOP, práci s JSON soubory a organizaci Python projektu do více modulů.
+Případné chyby vzniklé během natáčení výukového videa a jejich následné opravy budou v této části README postupně zdokumentovány.
+
+## ⚠️ Upozornění
+
+**Jedná se o jednoduchou výukovou aplikaci vytvořenou za účelem demonstrace základů OOP v Pythonu.**
+
+Nejedná se o komplexní aplikaci pro správu úkolů.
+
+---
+
+**© 2026 BlackCap Dev**
+
+**Autor: Jiří Hyroš**
